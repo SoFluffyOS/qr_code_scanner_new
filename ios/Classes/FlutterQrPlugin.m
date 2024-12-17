@@ -1,9 +1,9 @@
 #import "FlutterQrPlugin.h"
 
-#if __has_include(<qr_code_scanner/qr_code_scanner-Swift.h>)
-#import <qr_code_scanner/qr_code_scanner-Swift.h>
+#if __has_include(<qr_code_scanner_new/qr_code_scanner_new-Swift.h>)
+#import <qr_code_scanner_new/qr_code_scanner_new-Swift.h>
 #else
-#import "qr_code_scanner-Swift.h"
+#import "qr_code_scanner_new-Swift.h"
 #endif
 
 @implementation FlutterQrPlugin

@@ -3,7 +3,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'qr_code_scanner'
+  s.name             = 'qr_code_scanner_new'
   s.version          = '0.2.0'
   s.summary          = 'QR Code Scanner for flutter.'
   s.description      = <<-DESC
@@ -20,4 +20,3 @@ A new Flutter project.
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.0'
 end
-
